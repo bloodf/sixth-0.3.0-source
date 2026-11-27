@@ -1,0 +1,4 @@
+src/legacy
+src/data/icons.gen.ts
+dist
+dist-single

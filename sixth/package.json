@@ -1,0 +1,53 @@
+{
+  "name": "sixth",
+  "version": "0.3.0",
+  "description": "SIXTH: Esports Manager. A browser-only esports management game with live 3D matches and serverless P2P leagues.",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:single": "vite build -c vite.single.ts",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/core.test.ts tests/maps.test.ts tests/game.test.ts tests/build.test.ts tests/save.test.ts tests/hqnav.test.ts tests/life.test.ts",
+    "bench": "tsx tests/tac.bench.ts && tsx tests/moba.bench.ts 20 && tsx tests/arena.bench.ts",
+    "test:tamper": "python3 tests/tamper.py",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"tests/*.{ts,mjs}\" \"tools/*.{ts,mjs}\"",
+    "test:p2p": "python3 tests/p2p.py room",
+    "relay": "node tools/relay.mjs",
+    "icons": "node tools/icons.mjs",
+    "test:collide": "tsx tests/collide.ts",
+    "test:engines": "node tests/engines.mjs",
+    "test:editor": "python3 tests/editor.py",
+    "test:drawn": "python3 tests/drawn.py"
+  },
+  "dependencies": {
+    "@fontsource-variable/anybody": "^5.3.0",
+    "@fontsource-variable/sofia-sans": "^5.3.0",
+    "@fontsource-variable/sofia-sans-extra-condensed": "^5.3.0",
+    "@fontsource-variable/sofia-sans-semi-condensed": "^5.3.0",
+    "n8ao": "^2.1.0",
+    "postprocessing": "^6.39.6",
+    "preact": "^10.29.8",
+    "three": "^0.187.0",
+    "trystero": "^0.25.4"
+  },
+  "devDependencies": {
+    "@iconify-json/game-icons": "^1.2.4",
+    "@iconify-json/lucide": "^1.2.137",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "esbuild": "^0.28.2",
+    "meshoptimizer": "^1.3.0",
+    "prettier": "^3.10.1",
+    "quickjs-emscripten": "^0.32.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vite-plugin-singlefile": "^2.3.4",
+    "ws": "^8.23.0"
+  },
+  "private": true,
+  "type": "module"
+}

@@ -1,0 +1,8 @@
+{"outfits":[
+{"id":"tee_m","src":"male_casualsuit04","g":["male"]},{"id":"long_m","src":"male_casualsuit02","g":["male"]},{"id":"polo_m","src":"male_casualsuit06","g":["male"]},
+{"id":"shirt_m","src":"male_casualsuit01","g":["male"]},{"id":"jacket_m","src":"male_casualsuit05","g":["male"]},{"id":"suit_m","src":"male_elegantsuit01","g":["male"]},{"id":"work_m","src":"male_worksuit01","g":["male"]},
+{"id":"tee_f","src":"female_casualsuit01","g":["female"]},{"id":"short_f","src":"female_casualsuit02","g":["female"]},{"id":"sport_f","src":"female_sportsuit01","g":["female"]},{"id":"suit_f","src":"female_elegantsuit01","g":["female"]}],
+"shoes":[{"id":"sneak","src":"shoes05"},{"id":"smart","src":"shoes03"}],
+"hair":[{"id":"h_short1","src":"short01"},{"id":"h_short2","src":"short02"},{"id":"h_short3","src":"short03"},{"id":"h_short4","src":"short04"},{"id":"h_afro","src":"afro01"},{"id":"h_bob1","src":"bob01"},{"id":"h_bob2","src":"bob02"},{"id":"h_pony","src":"ponytail01"},{"id":"h_long","src":"long01"},{"id":"h_braid","src":"Braid01"},{"id":"h_curly","src":"curly2"},{"id":"h_hawk","src":"Harvey_Hawk1"}],
+"face":[{"id":"eyes","src":"eyes/Low-Poly","kind":"eyes"},{"id":"lash","src":"eyelashes/eyelashes02","kind":"lash"},{"id":"beard","src":"hair/Full_beard","kind":"beard","g":["male"]},{"id":"mous","src":"hair/Moustache","kind":"beard","g":["male"]},{"id":"glasses","src":"clothes/glasses","kind":"glasses"},
+{"id":"brow1","src":"eyebrows/eyebrow001","kind":"brow"},{"id":"brow2","src":"eyebrows/eyebrow004","kind":"brow"},{"id":"brow3","src":"eyebrows/eyebrow009","kind":"brow"},{"id":"brow4","src":"eyebrows/eyebrow012","kind":"brow"}]}
